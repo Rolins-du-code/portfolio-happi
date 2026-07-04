@@ -10,7 +10,7 @@ interface LangCtx {
   t: T;
 }
 
-const LangContext = createContext<LangCtx>({
+export const LangContext = createContext<LangCtx>({
   lang: "fr",
   setLang: () => {},
   t: translations.fr,
